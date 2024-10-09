@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body {
+  font-family: "Montserrat", Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px;
+  background-color: rgb(245, 244, 244);
+  border-bottom: 4px red solid;
+}
+
+.logo {
+  font-size: 24px;
+  color: rgb(255, 0, 0);
+  font-weight: 1000;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin-left: auto;
+  font-weight: 600;
+}
+
+.nav-links li {
+  margin: 0 15px;
+  cursor: pointer;
+  font-size: 18px;
+  color: #333;
+}
+
+.auth-buttons {
+  display: flex;
+}
+
+.logout-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  transition: transform 0.3s ease;
+}
+
+.dashboard-section {
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.account-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #e0e0e0;
+  border: 2px solid red;
+}
+
+.account-table th,
+.account-table td {
+  border: 1px solid red;
+  padding: 10px;
+  text-align: center;
+}
+
+.account-table th {
+  background-color: #f2f2f2;
+}
+
+.view-statement-btn {
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.transaction-history {
+  margin-top: 20px;
+}
+
+.transaction-history ul {
+  list-style: none;
+  padding: 0;
+}
+
+.transaction-history ul li {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-bottom: 1px solid red;
+  margin-bottom: 5px;
+}
+
+/* Form Styling */
+.transaction-form {
+  border: 1px solid red; /* Red border for forms */
+  padding: 20px;
+  background-color: #ffffff; /* White background for forms */
+  margin-top: 20px;
+}
+
+.transaction-form input {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc; /* Light grey border for input */
+}
+
+.form-btn {
+  background-color: red; /* Red button color */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 20px; /* Rounded corners */
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Loan details styling */
+.loan-details {
+  margin-top: 20px;
+  background-color: #f1faee; /* Light background for loan details */
+  padding: 15px;
+  border: 1px solid red; /* Red border */
+}
+
+/* Styling for nav links to keep the same color */
+.nav-links a {
+  color: inherit; /* Inherit the color from parent */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Optional: If you want to change the hover color */
+.nav-links a:hover {
+  color: red; /* Change to your desired hover color */
+}
+
+/* Prevent the visited link from changing color */
+.nav-links a:visited {
+  color: inherit; /* Maintain the same color as unvisited links */
+}
+
+/* Styles for the loan info section */
+.loan-info {
+  margin: 20px auto;
+  padding: 20px;
+  width: 400px;
+  background-color: #f8f8f8; /* Light grey background */
+}
+
+/* Heading for the loan application */
+.loan-info h3 {
+  text-align: center;
+  color: #ff4d4d; /* Red text for the heading */
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 15px;
+}
+
+/* Styles for the loan table */
+.loan-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #e0e0e0; /* Light grey background */
+  border: 2px solid red; /* Red border */
+}
+
+/* Styles for table headers and cells */
+.loan-table th,
+.loan-table td {
+  border: 1px solid red; /* Red border for cells */
+  padding: 10px; /* Padding inside cells */
+  text-align: center; /* Centered text */
+}
+
+/* Styles for table headers */
+.loan-table th {
+  background-color: #f2f2f2; /* Light grey background for headers */
+  color: #ff4d4d; /* Red text for headers */
+}
+
+/* Optional: Hover effect for table rows */
+.loan-table tr:hover {
+  background-color: #ffcccc; /* Light red on hover */
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .loan-info {
+    width: 90%; /* Full width on smaller screens */
+  }
+  .loan-table {
+    font-size: 14px; /* Smaller font size for mobile */
+  }
+}
+

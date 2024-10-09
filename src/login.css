@@ -1,0 +1,102 @@
+/* Container */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: white; /* Light grey background for consistency */
+}
+
+/* Login Form */
+.login-form {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 350px;
+  border: 3px solid #ff4d4d; /* Red border for consistency */
+}
+
+/* Logo Section */
+.logo-section {
+  margin-bottom: 20px;
+}
+
+.login-logo {
+  max-width: 100px;
+  margin-bottom: 10px;
+  margin-bottom: auto;
+  
+}
+
+.bank-name {
+  font-family: 'Montserrat', sans-serif; /* Use Montserrat for consistency */
+  font-size: 24px;
+  font-weight: 700;
+  color: #ff4d4d; /* Red color for Maverick Bank name */
+  margin: 0;
+}
+
+/* Input Fields */
+.login-input {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif; /* Use Montserrat for consistency */
+}
+
+.login-input:focus {
+  outline: none;
+  border-color: #ff4d4d; /* Red border on focus */
+}
+
+/* Login Button */
+.login-button {
+  width: 100%;
+  padding: 12px 0;
+  border: none;
+  background-color: #ff4d4d; /* Red background for login button */
+  color: #fff;
+  border-radius: 30px; /* Rounded button */
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif; /* Use Montserrat for consistency */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #e60000; /* Darker red on hover */
+}
+
+/* Error Message */
+.error-message {
+  color: #ff0000;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* Paragraph */
+.paragraph {
+  margin-top: 20px;
+  font-family: 'Montserrat', sans-serif; /* Use Montserrat for consistency */
+  font-size: 14px;
+  color: #666;
+}
+
+.link {
+  color: #ff4d4d; /* Red for the 'Join us' link */
+  text-decoration: none;
+}
+
+
+
+
+
+  
+  
+  
+  

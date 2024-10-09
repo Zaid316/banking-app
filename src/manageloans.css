@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body {
+  font-family: "Montserrat", Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.manage-loans-container {
+  padding: 20px;
+}
+
+.manage-loans-search-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.manage-loans-search-input {
+  padding: 12px 20px;
+  margin-right: 10px;
+  border: 2px solid #ccc;
+  border-radius: 30px;
+  font-size: 16px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  width: 300px;
+}
+
+.manage-loans-search-input:focus {
+  border-color: red;
+  box-shadow: 0 0 8px rgba(255, 0, 0, 0.2);
+}
+
+.manage-loans-search-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  gap: 10px;
+  display: flex;
+}
+
+.manage-loans-search-btn:hover {
+  background-color: darkred;
+}
+
+.approve-btn, .reject-btn {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.manage-loans-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.manage-loans-table th,
+.manage-loans-table td {
+  border: 2px solid red;
+  padding: 10px;
+  text-align: center;
+  background-color: #f2f2f2;
+}
+
+.manage-loans-table th {
+  background-color: rgb(232, 222, 222);
+  color: #ff4d4d;
+}
+
+/* Styling for Approve and Reject buttons */
+.approve-btn,
+.reject-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.approve-btn:hover,
+.reject-btn:hover {
+  background-color: darkred;
+  transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .manage-loans-search-input {
+    width: 100%;
+  }
+}
+
+  

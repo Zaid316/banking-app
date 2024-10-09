@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body {
+  font-family: "Montserrat", Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.generate-report-container {
+  padding: 20px; /* Adding padding for breathing room */
+}
+
+.generate-report-search-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.generate-report-search-input {
+  padding: 12px 20px; /* Larger padding for better look */
+  margin-right: 10px;
+  border: 2px solid #ccc;
+  border-radius: 30px; /* More rounded corners */
+  font-size: 16px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  width: 300px; /* Wider search input */
+}
+
+.generate-report-search-input:focus {
+  border-color: red; /* Focus effect */
+  box-shadow: 0 0 8px rgba(255, 0, 0, 0.2); /* Subtle red glow */
+}
+
+.generate-report-search-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.generate-report-search-btn:hover {
+  background-color: darkred; /* Darker red on hover */
+}
+
+.generate-report-error-message {
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.credit-score-result {
+  margin-top: 40px; /* Increase margin for better spacing */
+  padding: 20px;
+}
+
+/* Table Styling */
+.loan-criteria-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.loan-criteria-table th,
+.loan-criteria-table td {
+  border: 2px solid red;
+  padding: 10px;
+  text-align: center;
+  background-color: #f2f2f2;
+}
+
+.loan-criteria-table th {
+  background-color: rgb(232, 222, 222);
+  color: #ff4d4d;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .generate-report-search-input {
+    width: 100%;
+  }
+}
+
+  

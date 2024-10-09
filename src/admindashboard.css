@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body {
+  font-family: "Montserrat", Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.admin-dashboard-container {
+  padding: 0px; /* Adding padding to the overall container for breathing room */
+}
+
+.admin-dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: rgb(245, 244, 244);
+  border-bottom: 4px red solid;
+}
+
+.admin-dashboard-logo {
+  font-size: 24px;
+  color: rgb(255, 0, 0);
+  font-weight: bold;
+}
+
+/* Updated Search Bar */
+.admin-dashboard-search-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.admin-dashboard-search-input {
+  padding: 12px 20px; /* Larger padding for better look */
+  margin-right: 10px;
+  border: 2px solid #ccc;
+  border-radius: 30px; /* More rounded corners */
+  font-size: 16px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  width: 300px; /* Wider search input */
+}
+
+.admin-dashboard-search-input:focus {
+  border-color: red; /* Focus effect */
+  box-shadow: 0 0 8px rgba(255, 0, 0, 0.2); /* Subtle red glow */
+}
+
+.admin-dashboard-search-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.admin-dashboard-search-btn:hover {
+  background-color: darkred; /* Darker red on hover */
+}
+
+.admin-dashboard-error-message {
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.admin-dashboard-user-details {
+  margin-top: 40px; /* Increase margin for better spacing */
+  padding: 20px;
+}
+
+/* Table Styling */
+.admin-dashboard-account-table,
+.admin-dashboard-transaction-table,
+.admin-dashboard-loan-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.admin-dashboard-account-table th,
+.admin-dashboard-account-table td,
+.admin-dashboard-transaction-table th,
+.admin-dashboard-transaction-table td,
+.admin-dashboard-loan-table th,
+.admin-dashboard-loan-table td {
+  border: 2px solid red;
+  padding: 10px;
+  text-align: center;
+  background-color: #f2f2f2;
+}
+
+.admin-dashboard-account-table th,
+.admin-dashboard-transaction-table th,
+.admin-dashboard-loan-table th {
+  background-color: rgb(232, 222, 222);
+  color: #ff4d4d;
+}
+
+/* Styling for Buttons */
+.admin-dashboard-form-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 0 5px;
+}
+
+.admin-dashboard-form-btn:hover {
+  background-color: darkred; /* Darker red on hover */
+}
+
+/* Styling for the Delete Button */
+.admin-dashboard-delete-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px; /* More rounded corners */
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.admin-dashboard-delete-btn:hover {
+  background-color: darkred;
+  transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+
+.admin-dashboard-transaction-header,
+.admin-dashboard-loan-header {
+  margin: 20px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .admin-dashboard-search-input {
+    width: 100%;
+  }
+}
+

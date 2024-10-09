@@ -1,0 +1,31 @@
+/* Ensure the footer sticks to the bottom */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .app-container {
+    flex: 1; /* Make the main container take up remaining space */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the app takes up full viewport height */
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    margin-top: auto; /* Pushes the footer to the bottom */
+    position: relative;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  

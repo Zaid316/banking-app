@@ -1,0 +1,121 @@
+/* Container styling */
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif; /* Ensure Montserrat font is applied */
+}
+
+/* Registration container */
+.registration-container {
+    display: flex; /* Use flex to position items side by side */
+    justify-content: space-between; /* Space between form and rotating text */
+    align-items: flex-start; /* Align items to the start */
+    height: 100vh; /* Full height */
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+/* Form styling */
+.registration-form {
+    background: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Align text to left */
+    border: 4px solid red; /* Red border around the form */
+    width: 500px; /* Increased form width */
+}
+
+/* Logo section styling */
+.logo-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Logo styling */
+.login-logo {
+    width: 50px;
+    height: auto;
+    margin-right: 10px; /* Space between logo and text */
+}
+
+/* Bank name styling */
+.bank-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+}
+
+.register{
+    padding-bottom: 20px;
+    color: red;
+}
+
+/* Input field styling */
+.registration-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid black;
+    border-radius: 10px; /* 10px border radius */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for inputs */
+.registration-input:hover {
+    border-color: red; /* Red border on hover */
+    box-shadow: 0 0 8px rgba(255, 0, 0, 0.5); /* Red shadow effect */
+}
+
+/* Button styling */
+.registration-button {
+    width: 50%;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 20px; /* 10px border radius */
+    cursor: pointer;
+    font-weight: bold;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 10px;
+    margin-left: 100px;
+
+}
+
+/* Hover effect for register button */
+.registration-button:hover {
+    transform: scale(1.05); /* Slight zoom effect */
+    box-shadow: 0 0 12px rgba(255, 0, 0, 0.5); /* Red shadow effect */
+}
+
+/* Error message styling */
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+/* Rotating text styling */
+.rotating-text {
+    flex-grow: 1; /* Allow it to grow and fill space */
+    display: flex; /* Change to flex for centering */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    font-size: 3.5rem; /* Increase font size for visibility */
+    color: rgb(80, 66, 66);
+    padding-top: 300px;
+
+}
+
+/* Bold and underlined text style */
+.bold-red {
+    font-weight: bold;
+    text-decoration: underline red; /* Red underline */
+    color: black; /* Black color for the rotating phrase */
+}
+
+  
+  
+
+
